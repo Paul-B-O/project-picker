@@ -1,0 +1,14 @@
+@import url("https://necolas.github.io/normalize.css/8.0.1/normalize.css");
+
+html, body {
+    height: 100vh;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 1200px;
+}
