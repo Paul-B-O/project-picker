@@ -7,7 +7,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header></header>
-    <footer></footer>
+    <?php include("components/header.php"); ?>
+    
+    <div class="container">
+
+    </div>
+
+    <?php include("components/footer.php"); ?>
 </body>
 </html>
