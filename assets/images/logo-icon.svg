@@ -1,0 +1,17 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Logo icône sans texte - pour favicon -->
+
+  <!-- Fond -->
+  <rect width="64" height="64" rx="12" fill="#F8F9FA"/>
+
+  <!-- Cercle de fond violet clair -->
+  <circle cx="32" cy="32" r="24" fill="#6C5CE7" opacity="0.1"/>
+
+  <!-- Premier P -->
+  <path d="M22 20H32C35.3137 20 38 22.6863 38 26C38 29.3137 35.3137 32 32 32H26V46"
+        stroke="#6C5CE7" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+  <!-- Deuxième P (décalé légèrement) -->
+  <path d="M35 20H45C48.3137 20 51 22.6863 51 26C51 29.3137 48.3137 32 45 32H39V46"
+        stroke="#6C5CE7" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>
