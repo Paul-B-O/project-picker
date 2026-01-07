@@ -1,6 +1,17 @@
 @import url("https://necolas.github.io/normalize.css/8.0.1/normalize.css");
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
+:root {
+    --color-primary: #6c5ce7;
+
+    --radius-sm: 6px;
+    --radius-md: 10px;
+    --radius-lg: 14px;
+
+    --transition-fast: 0.2s ease;
+    --transition-normal: 0.3s ease;
+}
+
 html,
 body {
     font-family: "Rubik", sans-serif;
@@ -28,8 +39,19 @@ footer {
 .container {
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 
+.projectProp {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
 
 /* title  */
 .titles {
@@ -62,4 +84,36 @@ nav a {
 
 nav li {
     margin: 10px;
+}
+
+
+/* button */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  width: 100px;
+  height: 40px;
+  gap: 6px;
+  padding: 10px 16px;
+  border-radius: var(--radius-sm);
+  font-weight: 500;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  transition: background-color var(--transition-fast), transform var(--transition-fast);
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+}
+
+.btn-primary {
+  background-color: var(--color-primary);
+  color: #fff;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  border: 2px solid var(--color-primary);
+  color: var(--color-primary);
 }

@@ -11,11 +11,26 @@
     
     <div class="container">
         
-    <div>
-        <h1>Découvrez les projets étudiants</h1>
-        <h3>Votez pour les meilleures idées !</h3>
-    </div>
+        <div class="titles">
+            <h1>Découvrez les projets étudiants</h1>
+            <div>Votez pour les meilleures idées !</div>
+        </div>
         
+
+        <div class="projectProp">
+            <div class="header">
+                <div>Projet Proposés</div>
+                <div>
+                    <button class="btn btn-secondary">
+                        Plus récents
+                    </button>
+                    <button class="btn btn-secondary">
+                        Plus votés
+                    </button>
+                </div>
+            </div>
+        </div>
+
     </div>
 
     <?php include("components/footer.php"); ?>
