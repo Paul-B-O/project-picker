@@ -1,6 +1,6 @@
 <header>
     <div>
-        <img src="./assets/images/logo.svg" alt="">
+        <img src="../assets/images/logo.svg" alt="">
     </div>
     <nav>
         <ul>
