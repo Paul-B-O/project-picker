@@ -9,19 +9,7 @@
 </head>
 <body>
 
-<header>
-    <div>
-        <img src="./assets/images/logo.svg" alt="ProjectPicker">
-    </div>
-    <nav>
-        <ul>
-            <li><a href="./home.php">Accueil</a></li>
-            <li><a href="./new_project.php">Proposer un projet</a></li>
-            <li><a href="./my_project.php">Mes projets</a></li>
-            <li><a href="./login.php">Connexion</a></li>
-        </ul>
-    </nav>
-</header>
+<?php include("../components/header.php") ?>
 
 <main class="container">
     <div class="titles">
@@ -63,9 +51,8 @@
     </div>
 </main>
 
-<footer>
-    <div>© 2025 ProjectPicker – IIA BTS SIO SLAM</div>
-</footer>
+
+<?php include("../components/footer.php") ?>
 
 </body>
 </html>
