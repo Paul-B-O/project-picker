@@ -5,16 +5,16 @@
     <nav>
         <ul>
             <li>
-                <a href="index.php">Accueil</a>
+                <a href="./home.php">Accueil</a>
             </li>
             <li>
-                <a href="">Proposer un projet</a>
+                <a href="./new_project.php">Proposer un projet</a>
             </li>
             <li>
-                <a href="">Mes projets</a>
+                <a href="./my_project.php">Mes projets</a>
             </li>
             <li>
-                <a href="">Connexion</a>
+                <a href="./login.php">Connexion</a>
             </li>
         </ul>
     </nav>
