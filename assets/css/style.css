@@ -25,6 +25,8 @@ body {
   font-family: "Rubik", sans-serif;
   height: 100%;
   background-color: var(--color-bg);
+  display: flex;
+  flex-direction: column;
 }
 
 /* header  */
