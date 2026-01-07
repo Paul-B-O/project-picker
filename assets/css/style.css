@@ -3,6 +3,10 @@
 
 :root {
     --color-primary: #6c5ce7;
+    --color-accent: #fd7e14;
+
+    --color-bg: #f8f9fa;
+    --color-white: #ffffff;
 
     --radius-sm: 6px;
     --radius-md: 10px;
@@ -10,12 +14,17 @@
 
     --transition-fast: 0.2s ease;
     --transition-normal: 0.3s ease;
+
+    --shadow-sm: 0 2px 6px rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 6px 16px rgba(0, 0, 0, 0.08);
+
 }
 
 html,
 body {
     font-family: "Rubik", sans-serif;
     height: 100vh;
+    background-color: var(--color-bg);
 }
 
 /* header  */
@@ -33,6 +42,13 @@ ul {
 footer {
     display: flex;
     justify-content: center;
+    align-items: center;
+    width: 100%;
+    box-shadow: var(--shadow-md);
+    height: 10%;
+    margin-top: auto;
+    background-color: var(--color-white);
+    font-size: 14px;
 }
 
 /* page */
@@ -40,12 +56,16 @@ footer {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .projectProp {
-    display: flex;
+    display: inline-block;
     justify-content: center;
     width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .header {
@@ -91,7 +111,7 @@ nav li {
 .btn {
   display: inline-flex;
   align-items: center;
-  width: 100px;
+  max-width: 150px;
   height: 40px;
   gap: 6px;
   padding: 10px 16px;
@@ -116,4 +136,62 @@ nav li {
   background-color: transparent;
   border: 2px solid var(--color-primary);
   color: var(--color-primary);
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* card */
+.card {
+  background-color: var(--color-white);
+  border-radius: var(--radius-md);
+  padding: 20px;
+  box-shadow: var(--shadow-sm);
+  transition: transform var(--transition-normal), box-shadow var(--transition-normal);
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md);
+}
+
+.card-title {
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.card-text {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  color: var(--color-text-secondary);
+  margin-bottom: 12px;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.grid article {
+  height: 250px;
+  width: 260px;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.badge-vote {
+  background-color: var(--color-accent);
+  color: #fff;
 }

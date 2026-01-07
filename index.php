@@ -29,8 +29,19 @@
                     </button>
                 </div>
             </div>
-        </div>
 
+            <div class="grid">
+                <?php include("components/project_card.php")?>
+                <?php include("components/project_card.php")?>
+                <?php include("components/project_card.php")?>
+                <?php include("components/project_card.php")?>
+                <?php include("components/project_card.php")?>
+                <?php include("components/project_card.php")?>
+                <?php include("components/project_card.php")?>
+                <?php include("components/project_card.php")?>
+
+            </div>
+        </div>
     </div>
 
     <?php include("components/footer.php"); ?>
