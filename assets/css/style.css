@@ -23,7 +23,7 @@
 html,
 body {
     font-family: "Rubik", sans-serif;
-    height: 100vh;
+    height: 100%;
     background-color: var(--color-bg);
 }
 
@@ -194,4 +194,39 @@ nav li {
 .badge-vote {
   background-color: var(--color-accent);
   color: #fff;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.login-card {
+    width: 450px;
+}
+
+.login-field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.login-field label {
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+
+.login-field input {
+    height: 40px;
+    padding: 0 10px;
+    border-radius: var(--radius-sm);
+    border: 1px solid #ccc;
+    font-family: inherit;
+}
+
+.login-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
 }
