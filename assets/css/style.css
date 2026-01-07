@@ -2,108 +2,108 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 :root {
-    --color-primary: #6c5ce7;
-    --color-accent: #fd7e14;
+  --color-primary: #6c5ce7;
+  --color-accent: #fd7e14;
 
-    --color-bg: #f8f9fa;
-    --color-white: #ffffff;
+  --color-bg: #f8f9fa;
+  --color-white: #ffffff;
 
-    --radius-sm: 6px;
-    --radius-md: 10px;
-    --radius-lg: 14px;
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
 
-    --transition-fast: 0.2s ease;
-    --transition-normal: 0.3s ease;
+  --transition-fast: 0.2s ease;
+  --transition-normal: 0.3s ease;
 
-    --shadow-sm: 0 2px 6px rgba(0, 0, 0, 0.05);
-    --shadow-md: 0 6px 16px rgba(0, 0, 0, 0.08);
+  --shadow-sm: 0 2px 6px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 6px 16px rgba(0, 0, 0, 0.08);
 
 }
 
 html,
 body {
-    font-family: "Rubik", sans-serif;
-    height: 100%;
-    background-color: var(--color-bg);
+  font-family: "Rubik", sans-serif;
+  height: 100%;
+  background-color: var(--color-bg);
 }
 
 /* header  */
 header {
-    display: flex;
-    justify-content: space-evenly;
-    box-shadow: 0 4px 6px -2px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-evenly;
+  box-shadow: 0 4px 6px -2px rgba(0, 0, 0, 0.1);
 }
 
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 /* footer */
 footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    box-shadow: var(--shadow-md);
-    height: 10%;
-    margin-top: auto;
-    background-color: var(--color-white);
-    font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  box-shadow: var(--shadow-md);
+  height: 10%;
+  margin-top: auto;
+  background-color: var(--color-white);
+  font-size: 14px;
 }
 
 /* page */
 .container {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin-left: 10%;
-    margin-right: 10%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .projectProp {
-    display: inline-block;
-    justify-content: center;
-    width: 100%;
-    margin-top: 50px;
-    margin-bottom: 50px;
+  display: inline-block;
+  justify-content: center;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .header {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 /* title  */
 .titles {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
 }
 
 .titles div {
-    color: #636e72;
+  color: #636e72;
 }
 
 
 /* Nav  */
 nav {
-    display: flex;
-    margin-right: 10px;
-    margin-left: 10px;
+  display: flex;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 nav ul {
-    display: flex;
+  display: flex;
 }
 
 nav a {
-    color: black;
-    text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
 
 nav li {
-    margin: 10px;
+  margin: 10px;
 }
 
 
@@ -197,72 +197,116 @@ nav li {
 }
 
 .login-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
 }
 
 .login-card {
-    width: 450px;
+  width: 450px;
 }
 
 .login-field {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
 }
 
 .login-field label {
-    font-weight: 500;
-    margin-bottom: 6px;
+  font-weight: 500;
+  margin-bottom: 6px;
 }
 
 .login-field input {
-    height: 40px;
-    padding: 0 10px;
-    border-radius: var(--radius-sm);
-    border: 1px solid #ccc;
-    font-family: inherit;
+  height: 40px;
+  padding: 0 10px;
+  border-radius: var(--radius-sm);
+  border: 1px solid #ccc;
+  font-family: inherit;
 }
 
 .login-actions {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
 }
 
 /* ===== Mes projets ===== */
 
 .myprojects-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
 }
 
 .myprojects-card {
-    padding: 30px;
+  padding: 30px;
 }
 
 .myprojects-row {
-    display: grid;
-    grid-template-columns: 3fr 1.5fr 1fr 3fr;
-    align-items: center;
-    padding: 16px 0;
-    border-top: 1px solid #eee;
+  display: grid;
+  grid-template-columns: 3fr 1.5fr 1fr 3fr;
+  align-items: center;
+  padding: 16px 0;
+  border-top: 1px solid #eee;
 }
 
 .myprojects-row:first-of-type {
-    border-top: none;
+  border-top: none;
 }
 
 .myprojects-head {
-    font-weight: 600;
-    color: #636e72;
-    padding-bottom: 20px;
+  font-weight: 600;
+  color: #636e72;
+  padding-bottom: 20px;
 }
 
 .myprojects-actions {
-    display: flex;
-    gap: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+
+
+.project-form {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+
+.project-form-card {
+  width: 500px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 22px;
+}
+
+.form-group label {
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+
+.form-group input,
+.form-group textarea {
+  font-family: inherit;
+  padding: 10px 12px;
+  border-radius: var(--radius-sm);
+  border: 1px solid #ccc;
+  font-size: 14px;
+  resize: none;
+}
+
+.form-group input {
+  height: 40px;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
 }
